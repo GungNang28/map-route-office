@@ -1,0 +1,9 @@
+# Environment and Secret files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+npm-debug.log*

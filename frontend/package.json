@@ -1,0 +1,14 @@
+{
+  "name": "map-route-office-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Frontend for Map Route to Office Web Application",
+  "scripts": {
+    "dev": "vite --port 5173 --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "map-route-office-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web Application showing route from current location to office",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  }
+}
