@@ -1,5 +1,5 @@
 {
   "framework": "vite",
-  "buildCommand": "npm run build --prefix frontend",
+  "buildCommand": "npm install --prefix frontend && npm run build --prefix frontend",
   "outputDirectory": "frontend/dist"
 }
