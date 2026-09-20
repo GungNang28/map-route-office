@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: map-route-office-backend
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+      - key: OFFICE_NAME
+        value: สำนักงานใหญ่ SCG (บริษัท ปูนซิเมนต์ไทย จำกัด (มหาชน))
+      - key: OFFICE_LAT
+        value: "13.806490"
+      - key: OFFICE_LNG
+        value: "100.538290"
+      - key: CORS_ORIGIN
+        value: "*"
